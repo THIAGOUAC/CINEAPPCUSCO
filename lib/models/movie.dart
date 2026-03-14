@@ -12,7 +12,7 @@ class Movie {
 // El constructor debe ser const para permitir instancias
 // constantes y optimización en tiempo de compilación.
 
-  Movie({
+  const Movie({
     required this.id,
     required this.title,
     required this.overview,
